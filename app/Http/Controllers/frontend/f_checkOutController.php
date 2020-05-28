@@ -9,6 +9,6 @@ class f_checkOutController extends Controller
 {
     function getCheckout()
     {
-        # code...
+        return view('frontend.checkout');
     }
 }

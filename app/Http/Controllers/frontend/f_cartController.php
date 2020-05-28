@@ -9,6 +9,6 @@ class f_cartController extends Controller
 {
     function getCartDetail()
     {
-        # code...
+        return view('frontend.cart');
     }
 }

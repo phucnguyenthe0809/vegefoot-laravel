@@ -9,12 +9,12 @@ class f_postController extends Controller
 {
     function getPostList()
     {
-        
+        return view('frontend.blog.blog-list');
     }
     
     function getPostDetail()
     {
-        
+        return view('frontend.blog.blog-detail');
     }
    
 }
