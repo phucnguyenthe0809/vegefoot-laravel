@@ -237,7 +237,7 @@
     </ul>
     <div class="c-subheader justify-content-between px-3">
 
-       @component('backend.components.pathInHeader')
+       @component('backend.components.path-in-Header')
            @slot('pathRoot')
                Tổng quan
            @endslot

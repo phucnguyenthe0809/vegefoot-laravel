@@ -12,7 +12,7 @@
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop1"></use>
                 </svg> Danh sách bài viết</a></li>
-        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
+        <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="{{ route('backend.category.index') }}">
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop1"></use>
                 </svg> Danh mục bài viết</a></li>
@@ -20,19 +20,19 @@
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
                 </svg> Thêm bài viết</a></li>
-        <li class="c-sidebar-nav-title">Phim</li>
+        <li class="c-sidebar-nav-title">Quản lý sản phẩm</li>
         <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop1"></use>
-                </svg> Danh sách phim</a></li>
+                </svg> Danh sách sản phẩm</a></li>
         <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="colors.html">
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-drop1"></use>
-                </svg> Danh mục phim</a></li>
+                </svg> Danh mục sản phẩm</a></li>
         <li class="c-sidebar-nav-item"><a class="c-sidebar-nav-link" href="typography.html">
                 <svg class="c-sidebar-nav-icon">
                     <use xlink:href="vendors/@coreui/icons/svg/free.svg#cil-pencil"></use>
-                </svg> Thêm phim</a></li>
+                </svg> Thêm sản phẩm</a></li>
  
 
     <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent"

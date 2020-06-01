@@ -97,7 +97,7 @@
                                     </div>
                                 </div>
                                 {{-- component category card --}}
-                                <x-backend.category-card />
+                                <x-backend.category-card :arrayIdChecked="[]"/>
 
                                 <div class="card">
                                     <div class="card-header">

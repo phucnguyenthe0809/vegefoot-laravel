@@ -13,9 +13,12 @@ class categoryCard extends Component
      * @return void
      */
     public $categorys=NULL;
-    public function __construct()
+    public $arrayIdChecked=[];
+    public function __construct($arrayIdChecked)
     {
-      $this->categorys=category::where('parent',0)->get();
+      $this->categorys=category::where('id_parent',0)->get();
+      $this->arrayIdChecked=$arrayIdChecked;
+
     }
 
     /**
@@ -25,6 +28,7 @@ class categoryCard extends Component
      */
     public function render()
     {
-        return view('backend.components.categoryCard',['categorys'=>$this->categorys]);
+    
+        return view('backend.components.category-card',['categorys'=>$this->categorys,'arrayIdChecked'=>$this->arrayIdChecked]);
     }
 }
